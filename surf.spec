@@ -14,7 +14,9 @@ BuildRequires:	gcc3.3
 BuildRequires:	gcc3.3-c++
 BuildRequires:	gmp-devel
 BuildRequires:	gtk+-devel
+BuildRequires:	jpeg-devel
 BuildRequires:	libstdc++5-devel
+BuildRequires:	zlib-devel
 
 Requires:	libstdc++5
 
