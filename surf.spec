@@ -10,6 +10,7 @@ License:	GPL
 Group:		Sciences/Mathematics
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	flex
 BuildRequires:	gcc3.3
 BuildRequires:	gcc3.3-c++
 BuildRequires:	gmp-devel
