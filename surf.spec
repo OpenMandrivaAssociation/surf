@@ -16,6 +16,7 @@ BuildRequires:	gmp-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	jpeg-devel
 BuildRequires:	libstdc++5-devel
+BuildRequires:	libxmu-devel
 BuildRequires:	tiff-devel
 BuildRequires:	zlib-devel
 
