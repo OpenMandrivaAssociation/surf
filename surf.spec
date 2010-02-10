@@ -3,7 +3,7 @@
 Name:		surf
 Version:	1.0.5
 Summary:	Tool to visualize some real algebraic geometry
-Release:	%mkrel 2
+Release:	%mkrel 3
 Source0:	http://downloads.sourceforge.net/project/surf/surf/surf-1.0.5/surf-1.0.5.tar.gz
 URL:		http://surf.sourceforge.net/
 License:	GPL
