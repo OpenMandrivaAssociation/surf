@@ -1,14 +1,13 @@
 %define		_enable_libtoolize	%{nil}
 
 Name:		surf
-Version:	1.0.5
+Version:	1.0.6
 Summary:	Tool to visualize some real algebraic geometry
-Release:	%mkrel 4
-Source0:	http://downloads.sourceforge.net/project/surf/surf/surf-1.0.5/surf-1.0.5.tar.gz
+Release:	%mkrel 1
+Source0:	http://downloads.sourceforge.net/project/surf/surf/%{version}/%{name}-%{version}.tar.gz
 URL:		http://surf.sourceforge.net/
 License:	GPL
 Group:		Sciences/Mathematics
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	flex
 BuildRequires:	gcc3.3
