@@ -10,17 +10,14 @@ License:	GPL
 Group:		Sciences/Mathematics
 
 BuildRequires:	flex
-BuildRequires:	gcc3.3
-BuildRequires:	gcc3.3-c++
+BuildRequires:	cups-devel
 BuildRequires:	gmp-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	jpeg-devel
-BuildRequires:	libstdc++5-devel
 BuildRequires:	libxmu-devel
 BuildRequires:	tiff-devel
 BuildRequires:	zlib-devel
 
-Requires:	libstdc++5
 
 %description
 surf is a tool to visualize some real algebraic geometry:
@@ -31,13 +28,12 @@ surf is script driven and has (optionally) a nifty GUI using the Gtk widget set.
 %setup -q
 
 %build
-./configure						\
-	--prefix=%{_prefix}				\
-	--mandir=%{_mandir}				\
+%configure2_5x \
 	--with-gmp=%{_prefix}				\
 	--with-gtk=%{_prefix}				\
 	--with-x
-make CC=gcc-3.3.6 CXX=g++-3.3.6
+
+%make
 
 %install
 %makeinstall_std
