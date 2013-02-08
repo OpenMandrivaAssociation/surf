@@ -3,7 +3,7 @@
 Name:		surf
 Version:	1.0.6
 Summary:	Tool to visualize some real algebraic geometry
-Release:	%mkrel 1
+Release:	2
 Source0:	http://downloads.sourceforge.net/project/surf/surf/%{version}/%{name}-%{version}.tar.gz
 URL:		http://surf.sourceforge.net/
 License:	GPL
@@ -22,7 +22,8 @@ BuildRequires:	zlib-devel
 %description
 surf is a tool to visualize some real algebraic geometry:
 plane algebraic curves, algebraic surfaces and hyperplane sections of surfaces.
-surf is script driven and has (optionally) a nifty GUI using the Gtk widget set.
+surf is script driven and has (optionally) a nifty GUI using the Gtk widget
+set.
 
 %prep
 %setup -q
