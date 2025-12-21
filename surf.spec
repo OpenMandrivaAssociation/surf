@@ -9,6 +9,11 @@ Source1:	%{name}.module.in
 URL:		https://surf.sourceforge.net/
 License:	GPL
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	flex-devel
 BuildRequires:	cups-devel
 BuildRequires:	gmp-devel
